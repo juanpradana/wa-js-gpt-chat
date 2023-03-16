@@ -53,8 +53,8 @@ async function start(client) {
                 console.log(response.data.usage);
                 await client.sendText(chatId, message); // kirim pesan
             } catch (error) {
-                await client.sendText(chatId, "error"); // kirim pesan
-                console.log(error.data);
+                await client.sendText(chatId, "error, try again"); // kirim pesan
+                console.log(error);
             }
         }
     });

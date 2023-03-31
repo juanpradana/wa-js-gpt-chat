@@ -3,13 +3,13 @@
 ## preparation
 install nodeJS
 install [mongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
+- `git clone https://github.com/juanpradana/wa-js-gpt-chat.git`
 - please add ```.env``` file with:
 ```text
 DB_URL="your mongodb url"
 OPENAI_API_KEY="your key"
 ```
 
-- `git clone https://github.com/juanpradana/wa-js-gpt-chat.git`
 - `npm i`
 - `npm start`
 

@@ -1,6 +1,7 @@
 # js-gpt-chat
 
 ## preparation
+install [mongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
 - please add ```.env``` file with:
 ```text
 DB_URL="your mongodb url"
